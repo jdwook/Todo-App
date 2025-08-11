@@ -40,3 +40,91 @@
 .read-the-docs {
   color: #888;
 }
+
+.app-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fefefe;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: sans-serif;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.add-btn {
+  padding: 10px 15px;
+  background: #4cafef;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.add-btn:hover {
+  background: #3793d3;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.edit-input {
+  flex: 1;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit-btn, .save-btn {
+  padding: 5px 10px;
+  background: #ffc107;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.edit-btn:hover, .save-btn:hover {
+  background: #e0a800;
+}
+
+.delete-btn {
+  padding: 5px 10px;
+  background: #f44336;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.delete-btn:hover {
+  background: #d32f2f;
+}
